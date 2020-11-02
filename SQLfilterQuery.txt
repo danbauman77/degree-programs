@@ -1,0 +1,10 @@
+WHERE 
+fips < 60 
+and SECTOR in (1, 2) 
+and DEGGRANT = 1
+and PSET4FLG = 1
+and INSTCAT = 2
+and AWLEVEL = 5
+
+and CIPCODE_2010 != 95.9500
+and CIPCODE_2010 != 99.0000
